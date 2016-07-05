@@ -18,7 +18,11 @@ $query="INSERT INTO registrations SET name='".$name."', email='".$email."', tele
 $result=run_query($query);
 
 echo "Great! you have been registered";
+Thank you for registering successfully, we will email/call you as soon as possible!;
 ?>
 
 </body>
 </html>
+<html>
+<body>
+
